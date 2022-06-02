@@ -1,0 +1,101 @@
+html,
+body {
+    background: #e0e0e0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+Table {
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-size: 14px;
+
+}
+
+th {
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.btn {
+    margin: 40px;
+    width: 150px;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    display: flexbox;
+}
+
+
+.btn:hover {
+    background: #f0eeee;
+}
+
+tr {
+    height: 80px;
+}
+
+td>a {
+    color: black;
+}
+
+td>a:hover {
+    color: gray;
+
+}
+
+.container>h1 {
+    width: 100%;
+}
+
+form {
+    width: 30%;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    background: #e9e7e7;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: center;
+}
